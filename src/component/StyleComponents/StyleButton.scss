@@ -1,0 +1,13 @@
+@import './colors.scss';
+
+.button{
+    width: 200px;
+    height: 32px;
+    background-color: rgb(37, 90, 236, 55);
+    border: none;
+    margin: 4px;
+    &:hover{
+        color: $--color__base;
+        background-color: #fff;
+    }
+}

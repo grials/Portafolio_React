@@ -1,0 +1,9 @@
+@import '../../component/StyleComponents/colors.scss';
+
+.contact{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: $--color__darkMode;
+}

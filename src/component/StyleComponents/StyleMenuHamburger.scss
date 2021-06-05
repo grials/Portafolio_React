@@ -1,0 +1,15 @@
+@import './colors.scss';
+
+.menuHamburger{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $--color__darkMode;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5vw;
+    height: 80px;
+    z-index: 1600;
+}

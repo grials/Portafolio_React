@@ -1,0 +1,39 @@
+@import '../../component/StyleComponents/colors.scss';
+
+.resume{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: $--color__darkMode;
+}
+.continerData{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 400px));
+    grid-template-rows: repeat(auto);
+    gap: 16px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.headerEduc{
+    margin: 8px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    background-color: $--color__navBar;
+    border: 1px solid $--color__borde;
+    border-left-width: 5px;
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+    &:hover{
+        border-color: $--color__base;
+        transform: scale(1.08);
+    }
+}

@@ -1,0 +1,49 @@
+@import './colors.scss';
+
+.skills{
+    max-width: 400px;
+    min-width: 200px;
+    width: calc(30vw + 130px);
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+    img{
+        max-width: 150px;
+        max-height: 150px;
+        margin-bottom: 16px;
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+    p{
+        max-width: 150px;
+        width: calc(60% + 90px);
+        margin-left: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.themeDarkSkill{
+    background-color: #191d2b77;
+    color:#fff;
+    transition: all .5s ease-in-out;
+    &:hover{
+        border-color: $--color__base;
+        background-color: #191d2bff;
+    }
+}
+
+.themeLightSkill{
+    color:#000;
+    background-color: #057FFF22;
+    transition: all .5s ease-in-out;
+    &:hover{
+        border-color: #777;
+        background-color: #057FFF88;
+    }
+}

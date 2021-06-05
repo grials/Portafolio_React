@@ -1,0 +1,15 @@
+@import './colors.scss';
+
+.continerLines{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.line{
+    width: 3px;
+    height: 100%;
+    
+}
